@@ -1,0 +1,1 @@
+<button type="button" id="button-credit" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><img src="catalog/view/javascript/jquery/pp_calculator/img/pp_logo.png" style="max-width:25px;"> <?php echo $text_buycredit; ?></button>

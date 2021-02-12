@@ -1,0 +1,30 @@
+<?php
+// Text
+$_['text_information']  = 'Меню';
+$_['text_service']      = 'Служба поддержки';
+$_['text_extra']        = 'Дополнительно';
+$_['text_contact']      = 'Связаться с нами';
+$_['text_return']       = 'Возврат товара';
+$_['text_sitemap']      = 'Карта сайта';
+$_['text_manufacturer'] = 'Производители';
+$_['text_voucher']      = 'Подарочные сертификаты';
+$_['text_affiliate']    = 'Партнёры';
+$_['text_special']      = 'Товары со скидкой';
+$_['text_account']      = 'Личный кабинет';
+$_['text_order']        = 'История заказов';
+$_['text_wishlist']     = 'Ваши желания';
+$_['text_newsletter']   = 'Рассылка новостей';
+$_['text_blog']      = 'Услуги';
+$_['text_shopping_cart']      = 'Корзина';
+$_['text_addressmag'] = 'Адрес: <a href="https://www.google.com/maps/place/1-Y+Km/@49.9421151,36.4419251,17z/data=!4m8!1m2!2m1!1z0YDRi9C90L7QuiDQv9C10YDQstGL0Lkg0LrQuNC70L7QvNC10YLRgA!3m4!1s0x41270c233b6164e7:0x8d745663d9c63408!8m2!3d49.9422862!4d36.4448896" target="_blank" class="storeaddress"> город Харьков, рынок 1й километр, магазин Универсал</a>';
+$_['text_workregim'] = 'Работаем без выходных<br> с 9:00 до 18:00';
+$_['text_powered']      = '&copy; Весы Универсал';
+$_['text_instagram']          = 'Мы в Instagram, присоединяйтесь ;)';
+$_['text_city']          = 'Город Харьков';
+$_['text_country']          = 'Украина';
+$_['text_address']          = 'улица Академика Павлова 156 Б';
+$_['text_pricerange']          = 'От 1 грн';
+$_['text_storename']          = 'Весы Универсал';
+$_['text_specials']          = 'Акции';
+$_['text_bestsellers']          = 'Хиты продаж';
+$_['text_menu']          = 'Меню';

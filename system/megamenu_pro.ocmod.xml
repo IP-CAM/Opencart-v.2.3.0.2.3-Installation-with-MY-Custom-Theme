@@ -1,0 +1,32 @@
+<modification>
+	<code>MEGAMENU PRO</code>
+    <name>MEGAMENU PRO</name>
+	<version>1.1</version>
+	<author></author>
+	<file path="catalog/controller/common/home.php">
+		<operation>
+			<search><![CDATA[$data['column_left'] = $this->load->controller('common/column_left');]]></search>
+			<add position="before"><![CDATA[
+			$data['megamenu_setting'] = $this->config->get('megamenu_setting');
+			
+			]]></add>
+		</operation>	
+	</file>
+	<file path="catalog/controller/common/header.php">
+		<operation>
+			<search><![CDATA[
+			$data['language'] = $this->load->controller('common/language');
+			]]></search>
+			<add position="before"><![CDATA[
+			$megamenu_setting = $this->config->get('megamenu_setting');
+			
+			if($megamenu_setting['status']=='1'){
+				$data['megamenu_status']=true;
+				$data['menuvh'] = $this->load->controller('common/menuvh');
+			} else { 
+				$data['megamenu_status']=false;
+			}
+			]]></add>
+		</operation>
+	</file>
+</modification>

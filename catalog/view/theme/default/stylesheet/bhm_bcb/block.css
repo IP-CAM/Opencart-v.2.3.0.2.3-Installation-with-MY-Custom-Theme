@@ -1,0 +1,35 @@
+.bhm-bcb-block .title {
+	text-align: center;
+	font-size: 21px;
+	padding: 10px 0;
+}
+.bhm-bcb-block .item {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 4px 2px;
+	padding: 5px;
+}
+#column-left .bhm-bcb-block {
+	text-align: center;
+}
+.bhm-bcb-block .item .brand-name {
+	text-align: center;
+}
+.bhm-bcb-block .block {
+	margin-bottom: 5px;
+}
+.bhm-bcb-block .all-brand {
+	text-align: right;
+}
+.bhm-bcb-block .all-brand a {
+	border: 1px solid #ddd;
+	padding: 2px 4px;
+}
+.bhm-bcb-block .all-brand a, .bhm-bcb-block .item a {
+	color: #444;
+}
+.bhm-bcb-block .all-brand a:hover, .bhm-bcb-block .item a:hover {
+	color: #000;
+}
+
+

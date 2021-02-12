@@ -1,0 +1,22 @@
+.bhm-bcb-carousel .title {
+	text-align: center;
+	font-size: 21px;
+	padding: 10px 0;
+}
+.bhm-bcb-carousel .item img {
+	margin: auto;
+}
+.bhm-bcb-carousel .all-brand {
+	text-align: right;
+}
+.bhm-bcb-carousel .all-brand a {
+	border: 1px solid #ddd;
+	padding: 2px 4px;
+	color: #444;
+}
+.bhm-bcb-carousel .all-brand a:hover {
+	color: #000;
+}
+.bhm-bcb-carousel ul {
+	padding: 0;
+}
